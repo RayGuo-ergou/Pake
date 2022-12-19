@@ -1,12 +1,12 @@
 {
   "package": {
-    "productName": "WeRead",
+    "productName": "Granblue Fantasy",
     "version": "1.0.0"
   },
   "tauri": {
     "windows": [
       {
-        "url": "https://weread.qq.com/",
+        "url": "https://game.granbluefantasy.jp/",
         "transparent": true,
         "fullscreen": false,
         "width": 1200,
@@ -19,6 +19,15 @@
     },
     "updater": {
       "active": false
+    },
+
+    "bundle": {
+      "icon": [
+        "icons/GBF.icns",
+        "png/GBF_32.ico",
+        "png/GBF_256.ico",
+        "png/GBF_512.png"
+      ]
     }
   },
   "build": {
